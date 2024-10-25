@@ -1,0 +1,839 @@
+html,body{
+  scroll-behavior: smooth;
+}
+
+#header{
+  background-image: url(../img/aboutbg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  border-bottom: 2px solid #999;
+}
+#header .menu{
+  width: 93.75%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3.525rem;
+  font-weight: bold;
+}
+#header .logo{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 1.12rem;
+}
+#header .gnb{
+  display: flex;
+  margin-top: 2.37rem;
+  z-index: 999;
+}
+#header .gnb li{
+  margin-right: 2.5rem;
+}
+#header .toggle{
+  cursor: pointer;
+}
+#header .sidebar{
+  position: absolute;
+  top: 0; left: -460px;
+  width: 460px;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  transition: left 0.5s;
+  border-bottom: 2px solid #999;
+}
+#header .sidebar.active{
+  left:0;
+}
+#header .sidebar > .group2{
+  display: none;
+}
+#header .txt{
+  position: absolute;
+  top: 160px; left: 40px;
+  cursor: pointer;
+}
+#header .sub{
+  display:none;
+}
+#header .txt li{
+  padding: 10px;
+}
+#header .vivienne{
+  position: absolute;
+  left: 25px; bottom: 200px;
+}
+#header .vivienne img{
+  width: 100%;
+  display: block;
+}
+#header .login{
+  display: flex;
+  margin-top: 2.37rem;
+}
+#header .login li{
+  margin-left: 2.5rem;
+}
+#header .arrow{
+  position: fixed;
+  right: 60px;
+  font-size: 40px;
+  color: #ccc;
+  z-index: 30;
+}
+#header .arrowUp{
+  bottom: 90px;
+}
+#header .arrowDown{
+  bottom: 30px;
+}
+
+/*about*/
+#about{
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#about .wrap{
+  width: 61.979%;
+  margin: auto;
+}
+#about .title{
+  font-size: 32px;
+  padding: 230px 0 160px;
+  letter-spacing: 2px;
+}
+#about .aboutImg1{
+  width: 59.748%;
+  margin: auto;
+}
+#about .aboutImg3{
+  width: 330%;
+  order: 1;
+}
+#about .aboutImg4{
+  width: 220%;
+}
+#about .aboutImg img{
+  width: 100%;
+  display: block;
+} 
+#about .box{
+  padding-bottom: 250px;
+}
+#about .txt{
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+}
+#about .box2{
+  width: 100%;
+  display: flex;
+}
+#about .box2 .txt{
+  font-size: 16px;
+  margin-left: 6px;
+}
+#about .box2 .txt > h2{
+  padding: 20px 0 40px;
+  font-size: 30px;
+  font-weight: 900;
+}
+#about .illu{
+  width: 26%;
+  margin-left: 340px;
+  padding: 160px 0 150px;
+}
+#about .illu img{
+  width: 100%;
+  display: block;
+}
+#about .box3{
+  width: 100%;
+  display: flex;
+  padding-bottom: 230px;
+}
+#about .box3 > .txt{
+  margin-right: 27px;
+}
+#about .box3 > .txt h2{
+  padding: 22px 0 40px;
+}
+#about .box4{
+  width: 100%;
+  display: flex;
+  padding-bottom: 250px;
+}
+#about .box4 .txt{
+  margin-left: 38px;
+}
+#about .box4 .txt h2{
+  padding-bottom: 46px;
+}
+#about .story_txt{
+  width: 100%;
+  position: relative;
+}
+#about .story_txt2{
+  width: 100%;
+  position: relative;
+  display: none;
+}
+#about .txt_t{
+  width: 100%;
+  border-bottom: 2px solid #999;
+}
+#about .txt_t h1{
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 58px;
+}
+#about .aco{
+  border-bottom: 2px solid #999;
+}
+#about .story_t{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#about .story_t > .year{
+  line-height: 160px;
+  margin-left: 50px;
+}
+#about .title2{
+  margin: 10px 0 30px 0;
+}
+#about .contents{
+  margin-left: 160px;
+}
+#about .contents p{
+  margin-bottom: 18px;
+}
+#about .contents5{
+  padding-left: 96px;
+}
+#about .subtitle{
+  text-align: center;
+  margin-right: 160px;
+}
+#about .story_c .content{
+  margin-left: 390px;
+}
+#about .toggle_btn{
+  line-height: 160px;
+}
+#about .toggle_btn,
+#about .toggle_btn2{
+  font-size: 35px;
+  color: #999;
+  margin-right: 50px;
+  cursor: pointer;
+}
+#about .story_c{
+  display: none;
+}
+#about .story_c p{
+  margin-bottom: 18px;
+}
+#about .story_3{
+  padding-left: 4px;
+}
+#about .story_c .content_l{
+  padding-left: 110px;
+}
+#about .aco2{
+  border-bottom: 2px solid #999;
+  padding-bottom: 10px;
+}
+#about .year2{
+  margin-left: 30px;
+  padding-top: 33px;
+}
+#about .titleBox{
+  text-align: center;
+  padding-top: 30px;
+}
+#about .titleBox2{
+  padding-top: 18px;
+}
+#about .titleBox h2{
+  font-size: 18px;
+}
+#about .toggle_btn2{
+  line-height: 80px;
+  margin-right: 30px;
+}
+#about .story_c2{
+  display: none;
+}
+#about .story_c2 p{
+  margin-bottom: 20px;
+}
+#about .storyBox1{
+  width: 350px;
+  margin-left: 200px;
+}
+#about .storyBox2{
+  margin-left: 230px;
+}
+#about .storyBox3{
+  margin-left: 210px;
+}
+#about .storyBox4{
+  margin-left: 190px;
+}
+#about .storyBox5{
+  margin-left: 160px;
+}
+#about .vivienne{
+  width: 88%;
+  padding: 350px 0 400px 140px;
+}
+#about .vivienne img{
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 1440px){
+  #header{
+    width: 100%;
+  }
+  #header .menu{
+    width: 96.611%;
+    margin: auto;
+  }
+  #header .sidebar{
+    left: -390px;
+    width: 390px;
+  }
+  #header .vivienne{
+    left: 20px; bottom: 50px;
+  }
+  #header .vivienne img{
+    width: 90%;
+  }
+  #header .txt{
+    top: 110px; left: 20px;
+  }
+
+  #about{
+    width: 100%;
+  }
+  #about .wrap{
+    width: 90%;
+    margin: auto;
+  }
+  #about .box2{
+    margin-left: 70px;
+  }
+  #about .story_c .content{
+    margin-left: 448px;
+  }
+}
+
+@media screen and (max-width: 1280px){
+  #header{
+    width: 100%;
+  }
+  #header .vivienne{
+    bottom: 20px;
+  }
+  #header .txt{
+    top: 100px; left: 15px;
+  }
+  #header .arrow{
+    right: 40px;
+  }
+  #header .arrowUp{
+    bottom: 80px;
+  }
+  #header .arrowDown{
+    bottom: 20px;
+  }
+
+  #about .box2{
+    margin-left: 0;
+  }
+  #about .box2 .txt h2{
+    padding: 6px 0 24px;
+  }
+  #about .box4 .txt{
+    margin-left: 0;
+  }
+  #about .story_c .content{
+    margin-left: 376px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #header{
+    background: url(../img/aboutbg768.png) center/cover;
+  }
+  #header .gnb,
+  #header .login{
+    display: none;
+  }
+  #header .vivienne{
+    bottom: 300px;
+  }
+  #header .txt{
+    top: 140px; left: 50%;
+    transform: translateX(-50%);
+  }
+  #header .menubar::after{
+    content: "";
+    width: 1.25rem;
+    height: 1.06rem;
+    background:url(../img/whitemenubar.png) no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 2.31rem; left: 2.25rem;
+    z-index: 999;
+  }
+  #header .bag::after{
+    content: "";
+    width: 1.25rem;
+    height: 1.06rem;
+    background:url(../img/whitebag.png) no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 2.31rem; right: 4.37rem;
+  }
+  #header .search::after{
+    content: "";
+    width: 1.25rem;
+    height: 1.06rem;
+    background:url(../img/whitesearch.png) no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 2.31rem; right: 2.25rem;
+  }
+
+  #about .title{
+    font-size: 26px;
+    padding: 180px 0 100px;
+  }
+  #about .aboutImg1{
+    width: 80%;
+    margin: auto;
+  }
+  #about .txt{
+    font-size: 16px;
+  }
+  #about .box2{
+    flex-wrap: wrap;
+    margin-left: 6px;
+  }
+  #about .box2 .aboutImg2{
+    margin: auto;
+  }
+  #about .box2 .txt{
+    margin-left: 24px;
+  }
+  #about .illu{
+    margin-left: 180px;
+  }
+  #about .box3,
+  #about .box4{
+    flex-wrap: wrap;
+  }
+  #about .box3 .txt{
+    margin-left: 20px;
+  }
+  #about .aboutImg3{
+    width: 80%;
+    order: -1;
+    margin: auto;
+  }
+  #about .aboutImg4{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #about .box4{
+    padding-bottom: 0;
+  }
+  #about .box4 .txt{
+    width: 600px;
+    text-align: center;
+    margin-left: 45px;
+  }
+  #about .story_txt{
+    display: none;
+  }
+  #about .story_txt2{
+    display: block;
+    padding-top: 160px;
+  }
+  #about .story_txt{
+    width: 90%;
+    margin: auto;
+  }
+  #about .vivienne{
+    width: 90%;
+    padding: 250px 0 300px 80px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #header .logo{
+    width: 100%;
+  }   
+  #header .logo img{
+    width: 30%;
+  }
+  #header .sidebar{
+    left: -350px;
+    width: 350px;
+  }
+  #header .txt{
+    top: 120px;
+  }
+  #header .vivienne{
+    bottom: 60px;
+  }
+  #header .arrow{
+    right: 20px;
+    font-size: 35px;
+  }
+  #header .arrowUp{
+    bottom: 70px;
+  }
+  #header .arrowDown{
+    bottom: 15px;
+  }
+  #header .menubar::after{
+    left: 1.4rem;
+  }
+  #header .bag::after{
+    right: 3.4rem;
+  }
+  #header .search::after{
+    right: 1.2rem;
+  }
+
+  #about .title{
+    font-size: 20px;
+    padding: 140px 0 80px;
+  }
+  #about .aboutImg1{
+    width: 90%;
+  }
+  #about .txt{
+    width: 370px;
+    margin-left: 30px;
+  }
+  #about .box2{
+    margin-left: 0;
+  }
+  #about .box2 .aboutImg2{
+    margin: auto;
+  }
+  #about .box2 .txt{
+    width: 350px;
+    margin-left: 40px;
+  }
+  #about .box2 .txt h2{
+    font-size: 22px;
+  }
+  #about .illu{
+    width: 40%;
+    margin-left: 100px;
+  }
+  #about .aboutImg3{
+    width: 90%;
+  }
+  #about .box3{
+    padding-bottom: 180px;
+  }
+  #about .box3 .txt{
+    margin-left: 26px;
+  }
+  #about .box3 > .txt h2{
+    padding: 16px 0 20px;
+    font-size: 22px;
+  }
+  #about .aboutImg4{
+    margin-bottom: 20px;
+  }
+  #about .box4{
+    padding-bottom: 0;
+  }
+  #about .box4 .txt{
+    width: 380px;
+    margin-left: 26px;
+  }
+  #about .box4 .txt h2{
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  #about .aco2{
+    padding-bottom: 0;
+  }
+  #about .titleBox{
+    padding-top: 27px;
+  }
+  #about .titleBox2{
+    padding-top: 18px;
+  }
+  #about .toggle_btn2{
+    font-size: 22px;
+    margin-right: 20px;
+  }
+  #about .year2{
+    font-size: 14px;
+    margin-left: 20px;
+    padding-top: 28px;
+  }
+  #about .story_c2 p{
+    font-size: 14px;
+  }
+  #about .storyBox1{
+    width: 280px;
+    margin-left: 110px;
+  }
+  #about .storyBox2{
+    margin-left: 110px;
+  }
+  #about .storyBox3{
+    width: 280px;
+    margin-left: 110px;
+  }
+  #about .titleBox > .title_s{
+    letter-spacing: -2px;
+  }
+  #about .titleBox p{
+    font-size: 14px;
+  }
+  #about .storyBox4{
+    width: 280px;
+    margin-left: 100px;
+  }
+  #about .storyBox5{
+    width: 280px;
+    margin-left: 94px;
+  }
+  #about .titleBox h2{
+    font-size: 16px;
+  }
+  #about .vivienne{
+    padding: 150px 0 200px 40px;
+  }
+}
+
+@media screen and (max-width: 390px){
+  #header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/aboutbg375.png) center/cover;
+  }
+  #header .sidebar{
+    left: -280px;
+    width: 280px;
+  }
+  #header .txt{
+    top: 100px;
+  }
+  #header .vivienne{
+    bottom: 100px;
+  }
+
+  #about .title{
+    font-size: 20px;
+    padding: 100px 0 70px;
+  }
+  #about .aboutImg1{
+    width: 90%;
+  }
+  #about .txt{
+    width: 360px;
+    margin-left: 0px;
+    font-size: 16px;
+  }
+  #about .box2 .aboutImg2{
+    margin: auto;
+  }
+  #about .box2 .txt{
+    width: 360px;
+    margin-left: 0px;
+  }
+  #about .box2 .txt h2{
+    font-size: 22px;
+  }
+  #about .illu{
+    width: 40%;
+    margin-left: 96px;
+    padding: 120px 0 110px;
+  }
+  #about .box3 .txt{
+    margin-left: 20px;
+  }
+  #about .box3 > .txt h2{
+    padding: 12px 0 18px;
+    font-size: 22px;
+  }
+  #about .box4 .txt{
+    width: 380px;
+    margin-left: 0px;
+  }
+  #about .box4 .txt h2{
+    font-size: 22px;
+    padding-bottom: 18px;
+  }
+  #about .titleBox{
+    padding-top: 27px;
+  }
+  #about .titleBox2{
+    padding-top: 18px;
+  }
+  #about .titleBox .subtitle2{
+    font-size: 13px;
+  }
+  #about .toggle_btn2{
+    font-size: 22px;
+    margin-right: 10px;
+  }
+  #about .year2{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 30px;
+  }
+  #about .story_c2 p{
+    font-size: 14px;
+  }
+  #about .storyBox1{
+    width: 280px;
+    margin-left: 110px;
+  }
+  #about .storyBox2{
+    margin-left: 110px;
+  }
+  #about .storyBox3{
+    width: 280px;
+    margin-left: 110px;
+  }
+  #about .titleBox > .title_s{
+    letter-spacing: -2px;
+  }
+  #about .titleBox p{
+    font-size: 14px;
+  }
+  #about .storyBox1{
+    width: 280px;
+    margin-left: 50px;
+  }
+  #about .storyBox2{
+    width: 280px;
+    margin-left: 60px;
+  }
+  #about .storyBox3{
+    width: 280px;
+    margin-left: 60px;
+  }
+  #about .storyBox4{
+    width: 280px;
+    margin-left: 60px;
+  }
+  #about .storyBox5{
+    width: 280px;
+    margin-left: 46px;
+  }
+  #about .titleBox h2{
+    font-size: 16px;
+  }
+  #about .vivienne{
+    width: 100%;
+    padding: 150px 0 200px 0px;
+  }
+}
+
+@media screen and (max-width: 375px){ 
+
+  #about .title{
+    font-size: 18px;
+    padding: 100px 0 60px;
+  }
+  #about .box{
+    padding-bottom: 130px;
+  }
+  #about .txt{
+    width: 290px;
+    margin-left: 22px;
+  }
+  #about .aboutImg2{
+    width: 90%;
+  }
+  #about .box2 .txt{
+    width: 320px;
+    margin-left: 8px;
+  }
+  #about .box2 .txt h2{
+    font-size: 20px;
+    padding: 10px 0 10px;
+  }
+  #about .illu{
+    padding: 100px 0 90px;
+  }
+  #about .box3{
+    padding-bottom: 150px;
+  }
+  #about .box3 > .txt h2{
+    padding: 10px 0 10px;
+    font-size: 20px;
+  }
+  #about .box4 .txt{
+    margin-left: 20px;
+  }
+  #about .box4 .txt h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  #about .titleBox{
+    padding-top: 20px;
+  }
+  #about .titleBox2{
+    padding-top: 10px;
+  }
+  #about .titleBox h2{
+    font-size: 14px;
+  }
+  #about .titleBox p{
+    font-size: 12px;
+  }
+  #about .year2{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+  #about .toggle_btn2{
+    font-size: 18px;
+    margin-right: 10px;
+    line-height: 60px;
+  }
+  #about .story_c2 p{
+    font-size: 12px;
+  }
+  #about .storyBox1{
+    width: 230px;
+    margin-left: 80px;
+  }
+  #about .storyBox2{
+    margin-left: 90px;
+  }
+  #about .storyBox3{
+    width: 220px;
+    margin-left: 90px;
+  }
+  #about .storyBox4{
+    width: 230px;
+    margin-left: 80px;
+  }
+  #about .storyBox5{
+    width: 230px;
+    margin-left: 66px;
+  }
+  #about .vivienne{
+    padding: 120px 0 150px 30px;
+  }
+}
